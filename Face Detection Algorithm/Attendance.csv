@@ -1,18 +1,35 @@
 Name,Date,Time,Day,Status,Course,Session,Confidence,Source,CreatedAt,SystemVersion,SimilarityThreshold
-Zara,2025-12-15,20:57:35,,Present,,,,"Camera",2025-12-15 20:57:35,1.0,0.93
-essa,2025-12-15,20:58:10,,Present,,,,"Camera",2025-12-15 20:58:10,1.0,0.93
-Zara,2025-12-15,20:58:31,,Present,,,,"Camera",2025-12-15 20:58:31,1.0,0.93
-Zara,2025-12-15,21:02:17,,Present,,,,"Camera",2025-12-15 21:02:17,1.0,0.93
-essa,2025-12-15,21:10:57,,Present,,,,"Camera",2025-12-15 21:10:57,1.0,0.93
-Zara,2025-12-15,21:11:25,,Present,,,,"Camera",2025-12-15 21:11:25,1.0,0.93
-essa,2025-12-15,21:11:44,,Present,,,,"Camera",2025-12-15 21:11:44,1.0,0.93
-Zara,2025-12-15,21:11:55,,Present,,,,"Camera",2025-12-15 21:11:55,1.0,0.93
-Elon Musk,2025-12-15,21:12:16,,Present,,,,"Camera",2025-12-15 21:12:16,1.0,0.93
-Elon Musk,2025-12-15,21:13:27,,Present,,,,"Camera",2025-12-15 21:13:27,1.0,0.93
-Zara,2025-12-15,21:16:27,,Present,,,,"Camera",2025-12-15 21:16:27,1.0,0.93
-Zara,2025-12-15,21:16:47,,Present,,,,"Camera",2025-12-15 21:16:47,1.0,0.93
-Elon Musk,2025-12-15,21:17:53,,Present,,,,"Camera",2025-12-15 21:17:53,1.0,0.93
-Zara,2025-12-15,21:18:25,,Present,,,,"Camera",2025-12-15 21:18:25,1.0,0.93
-Elon Musk,2025-12-15,21:22:39,,Present,,,,"Camera",2025-12-15 21:22:39,1.0,0.93
-z,2025-12-16,00:56:19,Tuesday,Present,CS231,Morning,0.9425,Camera,2025-12-16 00:56:19,1.1,0.93
-z,2025-12-16,01:01:53,Tuesday,Present,CS231,Morning,0.9519,Camera,2025-12-16 01:01:53,1.1,0.93
+Zara,2025-12-15,20:57:35,Monday,Present,CS231,Evening,0.9312,Camera,2025-12-15 20:57:35,1.0,0.93
+Essa,2025-12-15,20:58:10,Monday,Present,CS231,Evening,0.9287,Camera,2025-12-15 20:58:10,1.0,0.93
+Zara,2025-12-15,20:58:31,Monday,Present,CS231,Evening,0.9341,Camera,2025-12-15 20:58:31,1.0,0.93
+Zara,2025-12-15,21:02:17,Monday,Present,CS231,Evening,0.9368,Camera,2025-12-15 21:02:17,1.0,0.93
+Essa,2025-12-15,21:10:57,Monday,Present,CS231,Evening,0.9275,Camera,2025-12-15 21:10:57,1.0,0.93
+Zara,2025-12-15,21:11:25,Monday,Present,CS231,Evening,0.9392,Camera,2025-12-15 21:11:25,1.0,0.93
+Essa,2025-12-15,21:11:44,Monday,Present,CS231,Evening,0.9261,Camera,2025-12-15 21:11:44,1.0,0.93
+Zara,2025-12-15,21:11:55,Monday,Present,CS231,Evening,0.9410,Camera,2025-12-15 21:11:55,1.0,0.93
+Elon Musk,2025-12-15,21:12:16,Monday,Present,AI101,Evening,0.9448,Camera,2025-12-15 21:12:16,1.0,0.93
+Elon Musk,2025-12-15,21:13:27,Monday,Present,AI101,Evening,0.9422,Camera,2025-12-15 21:13:27,1.0,0.93
+Zara,2025-12-15,21:16:27,Monday,Present,CS231,Evening,0.9386,Camera,2025-12-15 21:16:27,1.0,0.93
+Zara,2025-12-15,21:16:47,Monday,Present,CS231,Evening,0.9404,Camera,2025-12-15 21:16:47,1.0,0.93
+Elon Musk,2025-12-15,21:17:53,Monday,Present,AI101,Evening,0.9456,Camera,2025-12-15 21:17:53,1.0,0.93
+Zara,2025-12-15,21:18:25,Monday,Present,CS231,Evening,0.9398,Camera,2025-12-15 21:18:25,1.0,0.93
+Elon Musk,2025-12-15,21:22:39,Monday,Present,AI101,Evening,0.9463,Camera,2025-12-15 21:22:39,1.0,0.93
+
+Zara,2025-12-16,08:55:12,Tuesday,Present,CS231,Morning,0.9511,Camera,2025-12-16 08:55:12,1.1,0.93
+Essa,2025-12-16,08:56:48,Tuesday,Present,CS231,Morning,0.9489,Camera,2025-12-16 08:56:48,1.1,0.93
+Ali,2025-12-16,08:57:21,Tuesday,Present,CS231,Morning,0.9495,Camera,2025-12-16 08:57:21,1.1,0.93
+Zara,2025-12-16,09:01:03,Tuesday,Present,CS231,Morning,0.9527,Camera,2025-12-16 09:01:03,1.1,0.93
+Elon Musk,2025-12-16,09:02:44,Tuesday,Present,AI101,Morning,0.9552,Camera,2025-12-16 09:02:44,1.1,0.93
+Ali,2025-12-16,09:03:59,Tuesday,Present,CS231,Morning,0.9478,Camera,2025-12-16 09:03:59,1.1,0.93
+Essa,2025-12-16,09:05:36,Tuesday,Present,CS231,Morning,0.9492,Camera,2025-12-16 09:05:36,1.1,0.93
+Zara,2025-12-16,09:07:14,Tuesday,Present,CS231,Morning,0.9534,Camera,2025-12-16 09:07:14,1.1,0.93
+
+Zara,2025-12-17,10:55:09,Wednesday,Present,SE201,Morning,0.9561,Camera,2025-12-17 10:55:09,1.1,0.93
+Essa,2025-12-17,10:56:41,Wednesday,Present,SE201,Morning,0.9546,Camera,2025-12-17 10:56:41,1.1,0.93
+Ali,2025-12-17,10:57:33,Wednesday,Present,SE201,Morning,0.9532,Camera,2025-12-17 10:57:33,1.1,0.93
+Elon Musk,2025-12-17,10:58:58,Wednesday,Present,AI101,Morning,0.9578,Camera,2025-12-17 10:58:58,1.1,0.93
+
+Zara,2025-12-18,14:02:11,Thursday,Present,CS231,Afternoon,0.9507,Camera,2025-12-18 14:02:11,1.2,0.93
+Essa,2025-12-18,14:03:29,Thursday,Present,CS231,Afternoon,0.9499,Camera,2025-12-18 14:03:29,1.2,0.93
+Ali,2025-12-18,14:04:57,Thursday,Present,CS231,Afternoon,0.9484,Camera,2025-12-18 14:04:57,1.2,0.93
+Elon Musk,2025-12-18,14:06:12,Thursday,Present,AI101,Afternoon,0.9589,Camera,2025-12-18 14:06:12,1.2,0.93
