@@ -1,0 +1,12 @@
+Name,Date,Time,Day,Reason,Confidence,Source,CreatedAt,SystemVersion,SimilarityThreshold
+Zara,2025-12-15,21:45:33,Monday,Arrived too late for session,0.9489,Camera,2025-12-15 21:45:33,1.0,0.93
+Zara,2025-12-15,21:45:53,Monday,Arrived too late for session,0.9489,Camera,2025-12-15 21:45:53,1.0,0.93
+Zara,2025-12-15,21:46:07,Monday,Arrived too late for session,0.9318,Camera,2025-12-15 21:46:07,1.0,0.93
+,2025-12-15,23:05:58,Monday,No reliable face match,,Camera,2025-12-15 23:05:58,1.0,0.93
+khad,2025-12-15,23:06:14,Monday,Arrived too late for session,0.9569,Camera,2025-12-15 23:06:14,1.0,0.93
+khad,2025-12-15,23:21:58,Monday,Arrived too late for session,0.9620,Camera,2025-12-15 23:21:58,1.0,0.93
+,2025-12-15,23:34:42,Monday,No reliable face match,,Camera,2025-12-15 23:34:42,1.0,0.93
+khad,2025-12-15,23:35:00,Monday,Arrived too late for session,0.9526,Camera,2025-12-15 23:35:00,1.0,0.93
+,2025-12-16,00:51:22,Tuesday,No reliable face match,,Camera,2025-12-16 00:51:22,1.1,0.93
+,2025-12-16,00:51:58,Tuesday,No reliable face match,,Camera,2025-12-16 00:51:58,1.1,0.93
+,2025-12-16,01:01:41,Tuesday,No reliable face match,,Camera,2025-12-16 01:01:41,1.1,0.93
