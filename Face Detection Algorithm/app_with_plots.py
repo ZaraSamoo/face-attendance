@@ -28,7 +28,6 @@ def plot_status_pie(df_display: pd.DataFrame) -> Tuple[plt.Figure, plt.Axes]:
     - Present/Late (attended successfully)
     - Absent - Non-attendance (registered but never appeared)
     - Absent - Failed verification (appeared but low confidence)
-    - Rejected (other rejection reasons)
     """
     if 'Status' not in df_display.columns or df_display.empty:
         fig, ax = plt.subplots(figsize=(6, 6))
@@ -50,7 +49,7 @@ def plot_status_pie(df_display: pd.DataFrame) -> Tuple[plt.Figure, plt.Axes]:
         'Present/Late': sum(status_counts.get(s, 0) for s in present_late),
         'Absent - Non-attendance': sum(status_counts.get(s, 0) for s in absent_non_attendance),
         'Absent - Failed verification': sum(status_counts.get(s, 0) for s in absent_failed_verification),
-        'Rejected': sum(status_counts.get(s, 0) for s in rejected),
+       # 'Rejected': sum(status_counts.get(s, 0) for s in rejected),
     }
     
     # Remove zero categories
@@ -67,7 +66,7 @@ def plot_status_pie(df_display: pd.DataFrame) -> Tuple[plt.Figure, plt.Axes]:
         'Present/Late': '#2ecc71',  # Green for present/late
         'Absent - Non-attendance': '#e74c3c',  # Red for non-attendance
         'Absent - Failed verification': '#f39c12',  # Orange for failed verification
-        'Rejected': '#95a5a6',  # Gray for rejected
+        #'Rejected': '#95a5a6',  # Gray for rejected
     }
     
     labels = list(category_counts.keys())
@@ -89,7 +88,7 @@ def plot_status_pie(df_display: pd.DataFrame) -> Tuple[plt.Figure, plt.Axes]:
         autotext.set_color('white')
         autotext.set_fontweight('bold')
     
-    ax.set_title("Attendance Status Breakdown\n(Present/Late vs Absent vs Rejected)", fontsize=12, fontweight='bold', pad=20)
+    ax.set_title("Attendance Status Breakdown\n(Present/Late vs Absent)", fontsize=12, fontweight='bold', pad=20)
     ax.axis('equal')
     
     # Add legend with counts
@@ -946,7 +945,7 @@ def plot_day_of_week_bars(df_display: pd.DataFrame) -> Tuple[plt.Figure, plt.Axe
     return fig, ax
 
 
-# ========== Face Attendance App Class (with plotting integration) ==========
+# Face Attendance App Class 
 class FaceAttendanceApp:
     """OOP Streamlit app using OpenCV-only face features for matching."""
 
@@ -1892,7 +1891,7 @@ class FaceAttendanceApp:
 
     # ---------- App runner ----------
     def run(self) -> None:
-        st.set_page_config(page_title="Face Attendance (Streamlit)", page_icon="🧠", layout="centered")
+        st.set_page_config(page_title="Face Attendance (Streamlit)",  layout="centered")
 
         # Global minimal styling (as per original code)
         st.markdown(
@@ -1953,7 +1952,7 @@ class FaceAttendanceApp:
             unsafe_allow_html=True,
         )
 
-        st.sidebar.markdown("### 🧠 Face Attendance")
+        st.sidebar.markdown("### Face Attendance")
         st.sidebar.caption("Minimal Streamlit demo")
 
         # Session / course metadata controls (as per original code)
