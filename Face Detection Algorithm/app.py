@@ -145,7 +145,7 @@ class FaceAttendanceApp:
         Returns (status, recorded) where status is Present/Late/Rejected* and recorded
         indicates whether the row was written to the main attendance CSV.
         """
-        now = datetime.now()
+    now = datetime.now()
         date_str = now.strftime("%Y-%m-%d")
         time_str = now.strftime("%H:%M:%S")
         day_str = now.strftime("%A")
@@ -347,7 +347,7 @@ class FaceAttendanceApp:
                         image_bgr = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2BGR)
                     except Exception as exc:
                         st.error(f"Could not process camera image for saving: {exc}")
-                        return
+            return
 
                 save_path = self.images_path / f"{name}.jpg"
                 cv2.imwrite(str(save_path), image_bgr)
